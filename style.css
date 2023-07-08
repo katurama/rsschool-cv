@@ -117,9 +117,9 @@ main {
     position: absolute;
     top: 331px;
     grid-template-areas: "a c"
-                         "s  p"
-                         "ed l"
-                         "ed l";
+        "s  e"
+        "ed p"
+        "ed l";
 }
 
 main a {
@@ -135,13 +135,13 @@ main a {
     align-items: center;
 }
 
-.about-me p ,
+.about-me p,
 .skills ul,
 .education ul {
     padding: 31px 27px;
     background-color: white;
     border: 3px solid #211814;
-    box-shadow:  15px 15px 0px #3DC39B;
+    box-shadow: 15px 15px 0px #3DC39B;
     list-style-type: none;
 }
 
@@ -157,8 +157,8 @@ main a {
 
 .skills ul {
     width: 370px;
-    height:204px;
-    box-shadow:  15px 15px 0px #928CF8;
+    height: 204px;
+    box-shadow: 15px 15px 0px #928CF8;
 }
 
 .contacts {
@@ -180,8 +180,8 @@ main a {
 
 .education ul {
     width: 370px;
-    height:204px;
-    box-shadow:  15px 15px 0px #FE74A6;
+    height: 204px;
+    box-shadow: 15px 15px 0px #FE74A6;
 }
 
 .projects {
@@ -198,7 +198,7 @@ main h2 {
     margin-bottom: 23px;
 }
 
-main p ,
+main p,
 main li {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 13px;
@@ -214,7 +214,7 @@ pre,
     height: 128px;
     background-color: #FFE9A8;
     border: 3px solid #211814;
-    box-shadow:  -10px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.15);
     list-style-type: none;
     padding: 15px 15px;
     padding-right: 0px;
@@ -234,9 +234,9 @@ pre,
     justify-content: center;
 }
 
-.projects  li,
-.skills  li,
-.education li{
+.projects li,
+.skills li,
+.education li {
     line-height: 25px;
 }
 
@@ -249,12 +249,12 @@ footer {
     position: absolute;
     height: 50px;
     width: 100vw;
-    background-color:#3DC39B;
+    background-color: #3DC39B;
     display: flex;
     align-items: center;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     display: flex;
     width: 310px;
