@@ -13,7 +13,6 @@ html {
 
 body {
     background-color: #5552FF;
-    width: 800px;
     height: 1420px;
     margin: auto;
     font-family: 'Lato', sans-serif;
@@ -248,11 +247,8 @@ pre,
 
 footer {
     position: absolute;
-    bottom: 0;
     height: 50px;
-    width: 800px;
-    position: absolute;
-    left: -45px;
+    width: 100vw;
     background-color:#3DC39B;
     display: flex;
     align-items: center;
@@ -290,4 +286,8 @@ nav ul a {
     justify-content: space-between;
     align-items: center;
     font-weight: 900;
+}
+
+a:hover {
+    color: #001aff
 }
